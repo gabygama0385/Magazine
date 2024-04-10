@@ -3,6 +3,9 @@
     max-width: 1200px;
     margin: o auto;
 }
+body {
+    background-color: #f3f3f3;
+}
 .logo {
     width: 158px;
     height: auto;
@@ -17,12 +20,97 @@ ul.navigation {
 ul.navigation li a{
     text-decoration: none;
     color: black;
-    font-family: cabin;
+    font-family: cabin"cabin", sans-serif;
     font-size: 16px;
 }
 .everything {
     color: black;
     }
 .jumbotron {
-    background-image: src="https://mksdmcdn-9b59.kxcdn.com/gridlove/wp-content/uploads/2016/09/gridlock_37-1500x500.jpg";
+    background-image: url(../img/bg.jpg);
+}
+.jumbotron .wrapper {
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.jumbotron .wrapper .box {
+    font-family: "cabin", sans-serif;
+    max-width: 40%;
+}
+.jumbotron .overlay {
+    background: rgba(0,0,0,0.5 );
+    transition: all 0.5;
+}
+.jumbotron .overlay:hover {
+    background: rgba(0,0,0,0.7 );
+}
+.pill {
+background-color: blue;
+padding: 5px 10px;
+border-radius: 20px;
+}
+.pill + .pill {
+    margin-left: 10px;
+}
+.pill.blue {
+    background-color: blue;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    width: 100%;
+  
+}
+.card {
+    background-color: #fff;
+    padding: 30px;
+    aspect-ratio: 4 / 3;
+    
+}
+.pill.purple {
+    background-color: rgb(236, 141, 236);
+}
+.pill.orange {
+    background-color: rgb(230, 182, 93);
+}
+.pill.orange {
+    background-color: rgb(230, 182, 93);
+}
+.pill.red {
+    background-color: red;
+}
+.pill.blue {
+    background-color: blue;
+}
+#einsten-img-bg {
+background-image: url(../img/einsten.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+}
+#card1 {
+    background-image: url(../img/card1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+#mitad-mitad {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    padding: 0%;
+}
+#bottom {
+    padding: 0px 30px 30px;
+}
+#top {
+    background-image: url(../img/happy.jpg);
+    background-repeat: no-repeat;
+    background-size: cover ;
+    padding: 30px;
 }
